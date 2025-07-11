@@ -16,10 +16,8 @@
     scroll-behavior: smooth;
 }
 
-html, body {
+html {
     overflow-x: hidden;
-    width: 100%;
-    position: relative;
 }
 
 body {
@@ -28,6 +26,7 @@ body {
     color: var(--text-dark);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* Header Styles */
@@ -268,6 +267,10 @@ body {
     .service-card .card-body {
         padding: 1.5rem;
     }
+    
+    .service-image {
+        height: 250px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -291,21 +294,15 @@ body {
     .service-card .card-body {
         padding: 1rem;
     }
+    
+    .service-image {
+        height: 200px;
+    }
 }
 
 /* Bootstrap utility overrides */
 .text-light-emphasis {
     color: rgba(236, 240, 241, 0.8) !important;
-}
-
-/* Prevent horizontal scrolling on all elements */
-.container,
-.container-fluid,
-.row,
-.col,
-[class*="col-"] {
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 /* Ensure images don't break layout */
