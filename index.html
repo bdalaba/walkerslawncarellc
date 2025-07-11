@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walker's Lawn Care - Premium Lawn Care, Reynolds-Style</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img src="img/logo.png" alt="Walker's Lawn Care Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero d-flex align-items-center">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <h1 class="hero-title display-1 fw-bold mb-4">Maximum Effort. Minimum Weeds.</h1>
+                        <p class="hero-subtitle lead mb-5">We make grass so green, it's basically showing off. Your lawn will have more personality than your HOA president.</p>
+                        <a href="#contact" class="btn btn-custom btn-lg">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="display-4 fw-bold">What We Do</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card h-100 card border-0 shadow">
+                            <img src="img/mowing.png" alt="Professional lawn mowing service" class="service-image card-img-top">
+                            <div class="card-body d-flex flex-column">
+                                <div class="service-icon fs-1 mb-3">🌱</div>
+                                <h3 class="card-title h5 fw-semibold">Mowing, Trimming & Edging</h3>
+                                <p class="card-text mt-auto">We cut grass with surgical precision. Your edges will be so crisp, they'll make your neighbor's "landscaping" look like a toddler's art project. Sorry, Karen.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card h-100 card border-0 shadow">
+                            <img src="img/spreader.png" alt="Lawn fertilization and weed control" class="service-image card-img-top">
+                            <div class="card-body d-flex flex-column">
+                                <div class="service-icon fs-1 mb-3">🌿</div>
+                                <h3 class="card-title h5 fw-semibold">Fertilization & Weed Control</h3>
+                                <p class="card-text mt-auto">We eliminate weeds like they personally insulted our mothers. Spoiler alert: they did. Your grass gets premium nutrients while weeds get a one-way ticket to Plant Heaven.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card h-100 card border-0 shadow">
+                            <img src="img/cleanup.png" alt="Seasonal yard cleanup service" class="service-image card-img-top">
+                            <div class="card-body d-flex flex-column">
+                                <div class="service-icon fs-1 mb-3">🍂</div>
+                                <h3 class="card-title h5 fw-semibold">Seasonal Cleanups</h3>
+                                <p class="card-text mt-auto">We attack fallen leaves with the intensity of a caffeinated squirrel. Your yard will be so clean, you could eat off it. Please don't though - that's weird.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-card h-100 card border-0 shadow">
+                            <img src="img/pe.png" alt="Property enhancement and bed redesign" class="service-image card-img-top">
+                            <div class="card-body d-flex flex-column">
+                                <div class="service-icon fs-1 mb-3">🏡</div>
+                                <h3 class="card-title h5 fw-semibold">Property Enhancement</h3>
+                                <p class="card-text mt-auto">We transform sad flower beds into landscape masterpieces. Tearouts, redesigns, fresh mulch - basically plastic surgery for your property, but with more dirt and fewer complications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="display-4 fw-bold text-center mb-5">About Us</h2>
+                        <div class="about-content">
+                            <p class="lead text-center mb-4">Hi, I'm Jordan Walker, and I have an unhealthy obsession with perfect lawns. It started innocently enough - just a guy who couldn't stand seeing dandelions mock the natural order of things.</p>
+                            <p class="lead text-center mb-4">Now I run around with expensive lawn equipment, talking to grass like it's my therapist. Plot twist: the grass is a better listener than most humans. Also cheaper than actual therapy.</p>
+                            <p class="lead text-center">Every lawn gets my full attention because frankly, I have trust issues with other people's mowing patterns. Your grass deserves better than whatever chaos your previous guy was calling "landscaping."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="display-4 fw-bold text-light">Let's Kick Some Grass Together</h2>
+                    </div>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="contact-form-container">
+                            <form class="contact-form" action="mailto:walkerslawncare14@gmail.com" method="post" enctype="text/plain">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control form-control-lg" id="email" name="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="mb-4">
+                                    <textarea class="form-control form-control-lg" id="message" name="message" placeholder="Tell us about your lawn needs..." rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-custom btn-lg w-100">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="owner-profile text-center">
+                            <img src="img/owner-pic.jpg" alt="Jordan Walker - Owner of Walker's Lawn Care" class="owner-image rounded-circle mb-4">
+                            <div class="owner-info mb-4">
+                                <h3 class="h4 fw-semibold text-light mb-3">Ready to Transform Your Lawn?</h3>
+                                <p class="text-light-emphasis">Your lawn will look so good, your neighbors will start asking uncomfortable questions about your life choices. Don't worry, we'll give you a rehearsed answer.</p>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-item mb-3">
+                                    <a href="mailto:walkerslawncare14@gmail.com" class="btn btn-outline-light btn-lg d-flex align-items-center justify-content-center gap-3">
+                                        <span class="contact-icon">✉</span>
+                                        <span>walkerslawncare14@gmail.com</span>
+                                    </a>
+                                </div>
+                                <div class="contact-item">
+                                    <a href="tel:517-582-0994" class="btn btn-outline-light btn-lg d-flex align-items-center justify-content-center gap-3">
+                                        <span class="contact-icon">☎</span>
+                                        <span>(517) 582-0994</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0 text-light-emphasis">&copy; 2025 Walker's Lawn Care LLC. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
