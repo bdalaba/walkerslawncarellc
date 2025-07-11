@@ -269,7 +269,10 @@ body {
     }
     
     .service-image {
-        height: 250px;
+        height: 300px;
+        object-fit: contain;
+        object-position: center;
+        background: var(--light-gray);
     }
 }
 
@@ -296,7 +299,10 @@ body {
     }
     
     .service-image {
-        height: 200px;
+        height: 280px;
+        object-fit: contain;
+        object-position: center;
+        background: var(--light-gray);
     }
 }
 
