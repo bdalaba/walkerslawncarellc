@@ -16,10 +16,18 @@
     scroll-behavior: smooth;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
+
 body {
     font-family: var(--font-family);
     line-height: 1.6;
     color: var(--text-dark);
+    margin: 0;
+    padding: 0;
 }
 
 /* Header Styles */
@@ -288,6 +296,27 @@ body {
 /* Bootstrap utility overrides */
 .text-light-emphasis {
     color: rgba(236, 240, 241, 0.8) !important;
+}
+
+/* Prevent horizontal scrolling on all elements */
+.container,
+.container-fluid,
+.row,
+.col,
+[class*="col-"] {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Ensure images don't break layout */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fix any potential Bootstrap overflow issues */
+.navbar-collapse {
+    overflow-x: hidden;
 }
 
 /* Smooth scrolling offset for fixed navbar */
