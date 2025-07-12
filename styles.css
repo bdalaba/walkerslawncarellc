@@ -316,7 +316,7 @@ body {
     }
     
     .service-image {
-        height: 450px;
+        height: 500px;
         width: 100%;
         object-fit: cover;
         object-position: center top;
