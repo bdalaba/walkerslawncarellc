@@ -270,9 +270,13 @@ body {
     
     .service-image {
         height: 300px;
-        object-fit: contain;
-        object-position: center;
-        background: var(--light-gray);
+        width: 100%;
+        object-fit: cover;
+        object-position: center top;
+    }
+    
+    .contact-icon {
+        color: var(--white) !important;
     }
 }
 
@@ -300,9 +304,13 @@ body {
     
     .service-image {
         height: 280px;
-        object-fit: contain;
-        object-position: center;
-        background: var(--light-gray);
+        width: 100%;
+        object-fit: cover;
+        object-position: center top;
+    }
+    
+    .contact-icon {
+        color: var(--white) !important;
     }
 }
 
